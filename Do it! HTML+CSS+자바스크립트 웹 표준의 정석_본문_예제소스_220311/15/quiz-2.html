@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>연습문제 2</title>
+</head>
+<body>
+	<script>
+		function quiz(a,b){
+			if(a===b){
+				alert("같습니다.");
+			}
+			else if(a>b){
+				alert(a + "가(ㅇㅣ)" + b + "보다 크다");
+			}
+			else{
+				alert(b + "가(ㅇㅣ)" + a + "보다 크다");
+
+			}
+		}
+
+		var num1=prompt(" 비 교 할 첫 숫 자");
+		var num2=prompt(" 비 교 할 두번째 숫 자");
+		quiz(num1,num2);
+
+	</script>
+</body>
+</html>
